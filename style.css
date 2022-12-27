@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    width: 100%;
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 5px 8px rgb(0, 0, 0,.5);
+    z-index: 10;
+}
+.nav-link{
+    color: white !important;
+    z-index: 10px;
+}
+.nav-link:hover{
+    border-bottom: 1px solid white;
+}
